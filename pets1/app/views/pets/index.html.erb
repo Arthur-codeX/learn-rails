@@ -1,0 +1,36 @@
+
+<h1>Welcome to our pets app</h1>
+
+<h1>Below is a list of all the pets we have</h1>
+ <h3>
+   <a href="/add">Add new pet</a>
+ </h3>
+<table style="width:80%">
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Breed</th>
+    <th>Bio</th>
+    <th>Actions</th>
+  </tr>
+  <% @pets.each do |pet|%>
+    <tr>
+        <td>
+            <%=pet.name%>
+        </td>
+         <td>
+            <%=pet.pet_type%>
+        </td>
+        <td>
+            <%=pet.breed%>
+        </td>
+        <td>
+            <%=pet.bio%>
+        </td>
+        <td>
+          <a href="/update/<%=pet.id%>">Update</a>
+          <a href="/delete/<%=pet.id%>">Delete</a>
+        </td>
+    <tr>
+  <%end%>
+</table>

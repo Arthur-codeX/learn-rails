@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "rails-pets-develepment",
+      "database": "${workspaceFolder:learn_rails}/pets1/db/development.sqlite3"
+    }
+  ]
+}
