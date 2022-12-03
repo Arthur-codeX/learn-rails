@@ -35,3 +35,23 @@
 -- FlutterWave(card,recurring card payment)
 
 # \*Web Sockets. (Real time Application)
+
+Jwt(json web token)
+
+# basic Authentication.
+
+- creating an api. That requires. for each request made. The user requires his/her username and password.
+- https://<user_name>:<password>@relax.mkombozihealthcare.co.tz/test_db
+-
+
+Sessions. cookies.
+
+loges in(generate a unique token. )
+id=34dfsfsdfsdnrfnldnsdfnldsn 10 min store. session_id
+2min
+id=34dfsfsdfsdnrfnldnsdfnldsn 10 min
+
+Relationships. Sql
+None or few (sql,nosql)
+Is the data constrained.(nosql) iot.{soli:23,},{somethingelse.}
+If you want offline first access.(nosql).(auto syncic)
